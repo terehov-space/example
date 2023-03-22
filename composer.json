@@ -15,5 +15,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "larave": {
+            "providers": [
+                "Mterek97\\Example\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "v10.4.1"
+    }
 }
