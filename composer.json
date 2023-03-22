@@ -1,0 +1,19 @@
+{
+    "name": "mterek97/example",
+    "description": "Example package development",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mterek97\\Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "terehov-space",
+            "email": "terehov.space@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
