@@ -9,5 +9,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         if (\File::exists(__DIR__ . '/../vendor/autoload.php')) {
             include __DIR__ . '/../vendor/autoload.php';
         }
+
+        die('debug');
     }
 }
