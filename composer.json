@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "dev",
     "extra": {
-        "larave": {
+        "laravel": {
             "providers": [
                 "Mterek97\\Example\\ServiceProvider"
             ]
